@@ -1,0 +1,37 @@
+{
+    "name": "ak-snippets-keybindings",
+    "displayName": "AK Snippets and Keybindings",
+    "description": "AK snippets and keybindings",
+    "publisher": "akdevservices",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Keymaps",
+        "Snippets"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+shift+f9",
+                "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+            },
+            {
+                "key": "ctrl+e",
+                "command": "editor.emmet.action.expandAbbreviation",
+                "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+            },
+            {
+                "key": "ctrl+,",
+                "command": "workbench.action.openSettingsJson"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.code-snippets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "use strict": {
+        "prefix": "us",
+        "body": [
+            "\"use strict\";",
+            "$0"
+        ],
+        "description": "\"use strict;\""
+    }
+}
