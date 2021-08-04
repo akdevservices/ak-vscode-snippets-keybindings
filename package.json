@@ -3,7 +3,7 @@
     "displayName": "AK Snippets and Keybindings",
     "description": "AK snippets and keybindings",
     "publisher": "akdevservices",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -25,6 +25,10 @@
             {
                 "key": "ctrl+,",
                 "command": "workbench.action.openSettingsJson"
+            },
+            {
+                "key": "ctrl+k ctrl+v",
+                "command": "toggleVim"
             }
         ],
         "snippets": [
