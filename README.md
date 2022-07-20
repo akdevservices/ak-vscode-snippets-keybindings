@@ -11,4 +11,5 @@
 * Emmet: Expand Abbreviation (Ctrl + E)
 * Debug: Remove All Breakpoints (Ctrl + Shift + F9)
 * Preferences: Open Settings (JSON) (Ctrl + ,)
-* Vim: Toggle Vim Mode (Ctrl + k Ctrl + v)
+* View: Toggle Primary Side Bar Visibility (Ctrl + K Ctrl + M)
+* Vim: Toggle Vim Mode (Ctrl + K Ctrl + V)

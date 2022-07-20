@@ -3,7 +3,7 @@
     "displayName": "AK Snippets and Keybindings",
     "description": "AK snippets and keybindings",
     "publisher": "akdevservices",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -29,6 +29,10 @@
             {
                 "key": "ctrl+k ctrl+v",
                 "command": "toggleVim"
+            },
+            {
+                "key": "ctrl+k ctrl+m",
+                "command": "workbench.action.toggleSidebarVisibility"
             }
         ],
         "snippets": [
